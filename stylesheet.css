@@ -1,0 +1,59 @@
+.wood{
+    height: 350px;
+    width: 350px;
+    margin-left: 17%;
+}
+
+.wood:active{transform: scale(0.95);}
+
+.woodCount{
+    font-size: 25px;
+}
+
+.woodContainer{
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    border: solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+#axeAmount{
+    text-align: center;
+    background-color: #403d3973;
+    color: white;
+    font-size:x-large;
+    width: 50px;
+}
+
+#shopButton{
+    background-color: #808080;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#shopButton:hover {transform: scale(1.05);}
+
+#shopButton p:first-of-type {
+    font-size: 25px;
+}
+
+#nameAndCost{
+    padding: 10px;
+    color: white;
+    
+}
+
+#img {
+    height: 75px;
+    background-color: #ccc5b9;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.unselectable{
+    user-select: none;
+}
